@@ -14,8 +14,8 @@ const Navbar = () => {
           alt="pfp"
           className='rounded-full shadow-lg h-10 w-10 hover:ring hover:ring-gray-300'
           onClick={() => { progress < 100 ? setProgress(progress => progress + 1) : window.open("https://www.cse.unsw.edu.au/~z5422235/") }} />
-        {progress > 0 ? <div className="w-14 bg-gray-200 rounded-full h-2 ml-3">
-          <div className="bg-blue-600 h-2 rounded-full" style={{ width: `${progress}%` }}></div>
+        {progress > 0 ? <div className="w-14 sm:w-64 md:w-96 bg-gray-200 rounded-full h-2 ml-3">
+          <div className={`${progress === 100 ? "bg-red-600" : "bg-blue-300"} h-2 rounded-full`} style={{ width: `${progress}%` }}></div>
           <p className='text-xs mx-1 my-auto overflow-visible'>plz x{progress}</p>
           <p className='text-xs mx-1 my-auto'>{progress === 100 ? "ggs 💀" : stop[progress % stop.length]}</p>
         </div> : <></>}
