@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isPfpHover, setIsPfpHover] = useState(false)
@@ -18,15 +19,18 @@ const Navbar = () => {
         </a>
         {isPfpHover ? <p className='text-xs mx-1 my-auto'>plz x{count} dont click this 💀</p> : <></>}
       </div>
-      <div className='flex space-around'>
-        <div className='mx-2 grid place-items-center hover:border-b-4'>
+      <div className='flex space-around place-items-center'>
+        <div className='mx-2 grid hover:border-b-4'>
+        <Link to="/">Home</Link>
+        </div>
+        <div className='mx-2 grid hover:border-b-4'>
           <a href="https://www.linkedin.com/in/-eric-liao/">LinkedIn</a>
         </div>
-        <div className='mx-2 grid place-items-center hover:border-b-4'>
+        <div className='mx-2 grid hover:border-b-4'>
           <a href="https://github.com/RiceL123">GitHub</a>
         </div>
-        <div className='mx-2 grid place-items-center hover:border-b-4'>
-          Resume
+        <div className='mx-2 grid hover:border-b-4'>
+          <Link to="/resume">Resume</Link>
         </div>
       </div>
     </div>
