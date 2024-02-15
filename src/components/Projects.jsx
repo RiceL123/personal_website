@@ -4,8 +4,8 @@ const Projects = () => {
   return (
     <div>
       <h2 className='text-4xl'>Projects</h2>
-      <div>Website</div>
-      <div>UNSW Memes</div>
+      <div>This Website</div>
+      <div>UNSW Memes - comp1531 + comp6080 done?</div>
 
     </div>
   );
