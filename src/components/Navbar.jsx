@@ -16,7 +16,7 @@ const Navbar = () => {
           onClick={() => { progress < 100 ? setProgress(progress => progress + 1) : window.open("https://www.cse.unsw.edu.au/~z5422235/") }} />
         {progress > 0 ? <div className="w-14 bg-gray-200 rounded-full h-2 ml-3">
           <div className="bg-blue-600 h-2 rounded-full" style={{ width: `${progress}%` }}></div>
-          <p className='text-xs mx-1 my-auto'>plz x{progress}</p>
+          <p className='text-xs mx-1 my-auto overflow-visible'>plz x{progress}</p>
           <p className='text-xs mx-1 my-auto'>{progress === 100 ? "ggs 💀" : stop[progress % stop.length]}</p>
         </div> : <></>}
       </div>

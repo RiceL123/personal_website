@@ -3,7 +3,8 @@ import React from 'react';
 const Education = () => {
   return (
     <div>
-      <h2 className='text-4xl'>Education</h2>
+      <h2 className='text-4xl mb-2'>Education</h2>
+      <hr />
       <div className="flex place-items-center">
         <h4 className='text-lg'>UNSW Sydney Engineering</h4>
         <span className='mx-2'>•</span>

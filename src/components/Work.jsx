@@ -27,20 +27,24 @@ const Work = () => {
 
   return (
     <div className='mt-5'>
-      <h2 className='text-4xl'>Work Experience</h2>
-      {workExperience.map(({company, date, role, description, location}) => 
-      <div className='my-2'>
-        <hr />
-        <div className="flex place-items-center">
-          <h4 className='text-lg'>{company}</h4>
-          <span className='mx-2'>•</span>
-          <p>{date}</p>
-          <span className='mx-2'>•</span>
-          <p>{role}</p>
-          <p className='ml-auto text-gray-500 text-sm'>{location}</p>
-        </div>
-        <p className='ml-2 text-gray-600'>{description}</p>
-      </div>)}
+      <h2 className='text-4xl mb-2'>Work Experience</h2>
+      <hr />
+      {workExperience.map(({ company, date, role, description, location }) =>
+        <div className='mb-3'>
+          <div className="block sm:flex place-items-end">
+            <div className='flex place-items-end'>
+              <h4 className='text-lg'>{company}</h4>
+              <span className='mx-2'>•</span>
+              <p>{date}</p>
+            </div>
+            <div className='flex place-items-end grow'>
+              <span className='mx-2 hidden sm:block'>•</span>
+              <p>{role}</p>
+              <p className='ml-auto text-gray-500 text-sm'>{location}</p>
+            </div>
+          </div>
+          <p className='ml-2 text-gray-600'>{description}</p>
+        </div>)}
     </div>
   );
 };
