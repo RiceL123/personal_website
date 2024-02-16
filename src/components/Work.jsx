@@ -28,7 +28,7 @@ const Work = () => {
   return (
     <section className='mt-5' id='experience'>
       <h2 className='text-4xl mb-2'>Work Experience</h2>
-      <hr />
+      <hr className='border-primary-300' />
       {workExperience.map(({ company, date, role, description, location }) =>
         <div className='mb-3'>
           <div className="block sm:flex place-items-end">
@@ -40,10 +40,10 @@ const Work = () => {
             <div className='flex place-items-end grow'>
               <span className='mx-2 hidden sm:block'>•</span>
               <p>{date}</p>
-              <p className='ml-auto text-gray-500 text-sm'>{location}</p>
+              <p className='ml-auto text-primary-500 text-sm'>{location}</p>
             </div>
           </div>
-          <p className='ml-2 text-gray-600'>{description}</p>
+          <p className='ml-2 text-primary-600'>{description}</p>
         </div>)}
     </section>
   );
