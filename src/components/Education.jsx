@@ -6,7 +6,7 @@ const Education = () => {
       <h2 className='text-4xl mb-2'>Education</h2>
       <hr className='border-primary-300'/>
       <div className="flex place-items-center">
-        <h4 className='text-lg'>UNSW Sydney Engineering</h4>
+        <h4 className='text-lg font-normal'>UNSW Sydney Engineering</h4>
         <span className='mx-2'>•</span>
         <p>Feb 2022 - present</p>
       </div>

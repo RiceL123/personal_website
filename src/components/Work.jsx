@@ -33,7 +33,7 @@ const Work = () => {
         <div className='mb-3'>
           <div className="block sm:flex place-items-end">
             <div className='flex place-items-end'>
-              <h4 className='text-lg'>{company}</h4>
+              <h4 className='text-lg font-normal'>{company}</h4>
               <span className='mx-2'>•</span>
               <p>{role}</p>
             </div>
