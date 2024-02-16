@@ -12,7 +12,7 @@ const Projects = () => {
       title: "UNSW memes backend",
       link: "https://github.com/RiceL123/unsw-memes",
       description: "backend for COMP1531 assignment using typescript with express framework and SQLite3",
-      image: "https://cdn.discordapp.com/attachments/1080477395175358516/1097203040139870389/image.png?ex=65db7075&is=65c8fb75&hm=2e4c10487be3effdfe3add93ccc12ab10fe4c38ea1da00ef53523fa21e4d6cf9&"
+      image: "https://cdn.discordapp.com/attachments/848817257303900162/1207974936270999622/image.png?ex=65e19953&is=65cf2453&hm=05e21ebc84591d10fadd15f845211ed00070f252fd3ab2ba7603f49a674f4d5e&"
     }
   ]
   return (
