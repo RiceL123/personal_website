@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "airbrb frontend",
       link: "https://github.com/RiceL123/airbrb",
-      description: "frontend for COMP6080 assignment to build a Airbnb clone using React and Cypress",
+      description: "frontend for COMP6080 assignment to build an Airbnb clone using React and Cypress",
       image: "https://cdn.discordapp.com/attachments/848817257303900162/1207981246227943454/image.png?ex=65e19f34&is=65cf2a34&hm=2f753f64cc808fd788a719e85d95b4bb7b8e631ac34601c6a2e4c84131d9dc12&"
     }
   ]
@@ -26,7 +26,9 @@ const Projects = () => {
       <h2 className='text-4xl mb-2'>Projects</h2>
       <hr className='border-primary-300' />
       {projects.map(({ title, link, description, image }) => (<div className='my-3 flex space-x-2'>
-        <img className="h-20 sm:h-48 shadow-md aspect-video object-cover rounded border-transparent transition duration-300 border-solid border-2 hover:border-primary-300" src={image} alt={`image of ${title}`} />
+        <a href={link} className='h-20 sm:h-48 aspect-video'>
+          <img className="h-20 sm:h-48 shadow-md aspect-video object-cover rounded border-transparent transition duration-300 border-solid border-2 hover:border-primary-300" src={image} alt={`image of ${title}`} />
+        </a>
         <div>
           <a href={link} className='inline-block relative group text-2xl'>
             {title}

@@ -14,7 +14,7 @@ const Work = () => {
       location: "Brisbane, QLD",
       date: "Feb 2016 - Jan 2022",
       role: "Assistant Manager",
-      description: "Best Hiking Tents is a small online business that sells bags, tents and other items"
+      description: "Best Hiking Tents is a small online business that sells bags, tents and other items - creating product listings, shipping items"
     },
     {
       company: "Private Tutoring",
