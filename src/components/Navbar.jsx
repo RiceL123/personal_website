@@ -32,11 +32,11 @@ const Navbar = () => {
           alt="pfp"
           className='rounded-full shadow-lg h-12 w-12 transition hover:ring hover:ring-primary-300'
           onClick={() => { progress < 100 ? setProgress(progress => progress + 1) : window.open("https://www.cse.unsw.edu.au/~z5422235/") }} />
-        {progress > 0 ? <div className="w-14 sm:w-64 md:w-96 bg-gray-200 rounded-full h-2 ml-3">
-          <div className={`${progress === 100 ? "bg-red-600" : "bg-primary-300"} delay-100 h-2 rounded-full`} style={{ width: `${progress}%` }}></div>
-          <p className='text-xs mx-1 my-auto overflow-visible'>plz x{progress}</p>
+        <div className={`${progress > 0 ? "opacity-100" : 'opacity-0'} w-14 sm:w-64 md:w-96 bg-gray-200 rounded-full h-2 ml-3 transition-width duration-700`}>
+          <div className={`${progress === 100 ? "bg-red-500 shadow-md shadow-red-400/40" : "bg-primary-300"} delay-100 h-2 rounded-full transition-width duration-300`} style={{ width: `${progress}%` }}></div>
+          <p className='text-xs mx-1 my-auto'>plz x{progress}</p>
           <p className='text-xs mx-1 my-auto'>{progress === 100 ? "ggs 💀" : stop[progress % stop.length]}</p>
-        </div> : <></>}
+        </div>
       </div>
       <div className='flex space-x-3 place-items-center'>
         {links.map(({ title, link }) => (<Link to={link} className='inline-block relative group'>

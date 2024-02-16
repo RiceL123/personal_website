@@ -20,7 +20,7 @@ const Projects = () => {
       <h2 className='text-4xl mb-2'>Projects</h2>
       <hr className='border-primary-300' />
       {projects.map(({ title, link, description, image }) => (<div className='my-3 flex space-x-2'>
-        <img className="h-20 sm:h-32 shadow-md aspect-video object-cover rounded" src={image} alt={`image of ${title}`} />
+        <img className="h-20 sm:h-48 shadow-md aspect-video object-cover rounded border-transparent transition duration-300 border-solid border-2 hover:border-primary-300" src={image} alt={`image of ${title}`} />
         <div>
           <a href={link} className='inline-block relative group text-2xl'>
             {title}
