@@ -16,7 +16,7 @@ function App() {
           </div>
           <div className='m-2'>
             <h1 className='my-1 text-5xl lg:text-8xl lg:my-4 font-light	'>Eric Liao</h1>
-            <p className='my-1 text-md'>I starting programming in 2022 and I have no idea what I'm doing. Currently at UNSW doing in my third year.</p>
+            <p className='my-1 text-md'>I started programming in 2022 and have no idea what I'm doing 💀. Currently at UNSW in my penultimate year.</p>
             <p className='text-sm'>Based in Sydney - I like to do random life side quests</p>
           </div>
         </div>

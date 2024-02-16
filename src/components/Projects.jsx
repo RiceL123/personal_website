@@ -20,10 +20,13 @@ const Projects = () => {
       <h2 className='text-4xl mb-2'>Projects</h2>
       <hr className='border-primary-300' />
       {projects.map(({ title, link, description, image }) => (<div className='my-3 flex space-x-2'>
-        <img className="h-32 shadow-md aspect-video object-cover transition-transform delay-100 ease-in-out hover:scale-150 rounded" src={image} alt={`image of ${title}`} />
+        <img className="h-20 sm:h-32 shadow-md aspect-video object-cover rounded" src={image} alt={`image of ${title}`} />
         <div>
-          <a href={link} className='text-2xl hover:underline'>{title}</a>
-          <p className='text-primary-400'>{description}</p>
+          <a href={link} className='inline-block relative group text-2xl'>
+            {title}
+            <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
+          </a>
+          <p className='text-primary-400 text-xs sm:text-base'>{description}</p>
         </div>
       </div>))}
     </section>
