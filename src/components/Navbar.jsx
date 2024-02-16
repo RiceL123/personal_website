@@ -4,6 +4,24 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [progress, setProgress] = useState(0)
   const stop = ["dont", "stop", "plz", "cmon", "😭", "bruv", "mate", "bro", "noo", "nooooo", "⚠️⚠️⚠️", "its", "my", "old", "website", "it", "looks", "awful", "plz", "dont", "open", "it"]
+  const links = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/-eric-liao/"
+    },
+    {
+      title: "GitHub",
+      link: "https://github.com/RiceL123"
+    },
+    {
+      title: "Resume",
+      link: "/resume"
+    }
+  ]
 
   return (
     <div className='p-3 flex justify-between'>
@@ -21,22 +39,10 @@ const Navbar = () => {
         </div> : <></>}
       </div>
       <div className='flex space-x-3 place-items-center'>
-        <Link to="/" className='inline-block relative group'>
-          Home
+        {links.map(({ title, link }) => (<Link to={link} className='inline-block relative group'>
+          {title}
           <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
-        </Link>
-        <a href="https://www.linkedin.com/in/-eric-liao/" className='inline-block relative group'>
-          LinkedIn
-          <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
-        </a>
-        <a href="https://github.com/RiceL123" className='inline-block relative group'>
-          GitHub
-          <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
-        </a>
-        <Link to="/resume" className='inline-block relative group'>
-          Resume
-          <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
-        </Link>
+        </Link>))}
       </div>
     </div>
   );

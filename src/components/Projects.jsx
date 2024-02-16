@@ -20,7 +20,7 @@ const Projects = () => {
       <h2 className='text-4xl mb-2'>Projects</h2>
       <hr className='border-primary-300' />
       {projects.map(({ title, link, description, image }) => (<div className='my-3 flex space-x-2'>
-        <img className="h-32 shadow-md aspect-video object-cover transition-transform delay-100 ease-in-out hover:scale-150 rounded shadow" src={image} alt={`image of ${title}`} />
+        <img className="h-32 shadow-md aspect-video object-cover transition-transform delay-100 ease-in-out hover:scale-150 rounded" src={image} alt={`image of ${title}`} />
         <div>
           <a href={link} className='text-2xl hover:underline'>{title}</a>
           <p className='text-primary-400'>{description}</p>
