@@ -6,19 +6,19 @@ const Projects = () => {
       title: "personal website",
       link: "https://ricel123.netlify.app/",
       description: "static website using React and Tailwindcss",
-      image: "https://cdn.discordapp.com/attachments/848817257303900162/1207707475332177930/image.png?ex=65e0a03c&is=65ce2b3c&hm=d6cf650daefd96fefe2eec26081c8c53d7df0adff94cbf58ac065ebbe35372a3&"
+      image: "/projects/personal web.png"
     },
     {
       title: "UNSW memes backend",
       link: "https://github.com/RiceL123/unsw-memes",
       description: "backend for COMP1531 assignment to build a chat app using TypeScript with Express framework and SQLite3",
-      image: "https://cdn.discordapp.com/attachments/848817257303900162/1207974936270999622/image.png?ex=65e19953&is=65cf2453&hm=05e21ebc84591d10fadd15f845211ed00070f252fd3ab2ba7603f49a674f4d5e&"
+      image: "/projects/unsw memes.png"
     },
     {
       title: "airbrb frontend",
       link: "https://github.com/RiceL123/airbrb",
-      description: "frontend for COMP6080 assignment to build an Airbnb clone using React and Cypress",
-      image: "https://cdn.discordapp.com/attachments/848817257303900162/1207981246227943454/image.png?ex=65e19f34&is=65cf2a34&hm=2f753f64cc808fd788a719e85d95b4bb7b8e631ac34601c6a2e4c84131d9dc12&"
+      description: "frontend for COMP6080 assignment to build an Airbnb clone using React and testing with Cypress",
+      image: "/projects/airbrb.png"
     }
   ]
   return (

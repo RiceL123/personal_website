@@ -10,7 +10,7 @@ function App() {
       <div className="main m-2 md:mx-6">
         <div className='flex'>
           <div className='group relative min-w-40 min-h-40 lg:min-h-64 lg:min-w-64 my-auto overflow-hidden'>
-            <img src="https://cdn.discordapp.com/attachments/848817257303900162/1207625312779763762/ohno__clarifications.jpg?ex=65e053b7&is=65cddeb7&hm=1412b276ae1c9dcbe1328e0f024b7a0e5aa54b2efa588879f8f49a0880ad84fe&" alt="display photo" className='object-contain w-40 h-40 lg:h-64 lg:w-64 rounded-md shadow-lg' />
+            <img src="display photo.jpg" alt="display photo" className='object-contain w-40 h-40 lg:h-64 lg:w-64 rounded-md shadow-lg' />
             <div className="absolute inset-0 bg-primary-800 bg-opacity-15 transition-transform translate-x-full group-hover:translate-x-32 group-hover:skew-x-12 h-40 w-40 lg:h-64 lg:w-64 pointer-events-none"></div>
             <p className='transition-opacity opacity-100 group-hover:opacity-100 md:opacity-0 text-[0.6em] text-center'>you're welcome for the clarification</p>
           </div>

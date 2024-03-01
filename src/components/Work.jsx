@@ -3,25 +3,32 @@ import React from 'react';
 const Work = () => {
   let workExperience = [
     {
+      company: "DataAnnotation",
+      location: "Remote",
+      date: "Feb 2023 - Now",
+      role: "AI Trainer",
+      description: "Evaluating AI code responses on correctness, performance, readability and design in Python, JavaScript, Java, Rust, SQL and C"
+    },
+    {
       company: "Timezone",
       location: "Sydney, NSW",
       date: "Mar 2022 - Nov 2022",
       role: "Guest Services Attendant",
-      description: "Serving customers at POS and doing other tasks like checking merchandise, cleaning and fixing arcade machine problems"
+      description: "Serving customers at POS, checking merchandise, cleaning and fixing arcade machine problems"
     },
     {
       company: "Best Hiking Tents",
       location: "Brisbane, QLD",
       date: "Feb 2016 - Jan 2022",
       role: "Assistant Manager",
-      description: "Best Hiking Tents is a small online business that sells bags, tents and other items - creating product listings, shipping items"
+      description: "Creating and editing product listings, managing inventory, tracking customer records and addressing inquiries"
     },
     {
       company: "Private Tutoring",
       location: "Brisbane, QLD",
       date: "Jan 2018 - Feb 2020",
       role: "Private Tutor",
-      description: "Tutoring primary and highschool students English, math and science"
+      description: "Tutoring primary and highschool students ranging from grades 4 to 12 in English, math and science"
     }
   ]
 
