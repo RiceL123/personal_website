@@ -7,7 +7,7 @@ const Work = () => {
       location: "Remote",
       date: "Feb 2023 - Now",
       role: "AI Trainer",
-      description: "Evaluating AI code responses on correctness, performance, readability and design in Python, JavaScript, Java, Rust, SQL and C"
+      description: "Evaluating generative AI code responses on correctness, performance, readability and design in Python, JavaScript, Java, Rust and C"
     },
     {
       company: "Timezone",
