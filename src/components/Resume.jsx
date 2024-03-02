@@ -8,7 +8,7 @@ const Resume = () => {
       <div className='flex justify-center'>
         <a
           className="py-2 px-4 rounded inline-block relative group"
-          href='https://raw.githubusercontent.com/RiceL123/personal_website/f997a908833f352dd107b5a1224e2c2f647657ee/assets/ERIC%20RESUME.pdf'
+          href='https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/ERIC%20RESUME.pdf'
         >
           <div className="flex items-center space-x-2">
             <p>Resume</p>
