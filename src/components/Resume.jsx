@@ -8,7 +8,7 @@ const Resume = () => {
       <div className='flex justify-center'>
         <a
           className="py-2 px-4 rounded inline-block relative group"
-          href='https://raw.githubusercontent.com/RiceL123/personal_website/f997a908833f352dd107b5a1224e2c2f647657ee/public/ERIC%20RESUME.pdf'
+          href='https://raw.githubusercontent.com/RiceL123/personal_website/f997a908833f352dd107b5a1224e2c2f647657ee/assets/ERIC%20RESUME.pdf'
         >
           <div className="flex items-center space-x-2">
             <p>Resume</p>
@@ -24,7 +24,7 @@ const Resume = () => {
           <span className='absolute inset-x-0 bottom-0 h-0.5 bg-primary-300 transform scale-x-0 transition-transform group-hover:scale-x-100'></span>
         </a>
       </div>
-      <img src="https://raw.githubusercontent.com/RiceL123/personal_website/main/public/ERIC%20RESUME.png" alt="resume" />
+      <img src="https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/ERIC%20RESUME.png" alt="resume" />
     </div>
   );
 };

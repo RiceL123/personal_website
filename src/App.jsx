@@ -10,7 +10,7 @@ function App() {
       <div className="main m-2 md:mx-6">
         <div className='flex'>
           <div className='group relative min-w-40 min-h-40 lg:min-h-64 lg:min-w-64 my-auto overflow-hidden'>
-            <img src="https://raw.githubusercontent.com/RiceL123/personal_website/main/public/display%20photo.jpg" alt="display photo" className='object-contain w-40 h-40 lg:h-64 lg:w-64 rounded-md shadow-lg' />
+            <img src="https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/display%20photo.jpg" alt="display photo" className='object-contain w-40 h-40 lg:h-64 lg:w-64 rounded-md shadow-lg' />
             <div className="absolute inset-0 bg-primary-800 bg-opacity-15 transition-transform translate-x-full group-hover:translate-x-32 group-hover:skew-x-12 h-40 w-40 lg:h-64 lg:w-64 pointer-events-none"></div>
             <p className='transition-opacity opacity-100 group-hover:opacity-100 md:opacity-0 text-[0.6em] text-center'>you're welcome for the clarification</p>
           </div>

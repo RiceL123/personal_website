@@ -6,19 +6,19 @@ const Projects = () => {
       title: "personal website",
       link: "https://ricel123.netlify.app/",
       description: "static website using React and Tailwindcss",
-      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/public/projects/personal web.png"
+      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/projects/personal web.png"
     },
     {
       title: "UNSW memes backend",
       link: "https://github.com/RiceL123/unsw-memes",
       description: "backend for COMP1531 assignment to build a chat app using TypeScript with Express framework and SQLite3",
-      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/public/projects/unsw memes.png"
+      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/projects/unsw memes.png"
     },
     {
       title: "airbrb frontend",
       link: "https://github.com/RiceL123/airbrb",
       description: "frontend for COMP6080 assignment to build an Airbnb clone using React and testing with Cypress",
-      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/public/projects/airbrb.png"
+      image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/projects/airbrb.png"
     }
   ]
   return (
