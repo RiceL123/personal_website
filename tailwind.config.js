@@ -10,6 +10,12 @@ export default {
       'mono': ['ui-monospace', 'SFMono-Regular'],
     },
     extend: {
+      keyframes: {
+        pulseBackground: {
+          '0%, 100%': { backdropFilter: 'blur(8px)' },
+          '50%': { backdropFilter: 'blur(1px)' },
+        }
+      },
       colors: {
         primary: {
           50: "#f9fafb",
