@@ -10,13 +10,13 @@ const Projects = () => {
     },
     {
       title: "UNSW memes backend",
-      link: "https://github.com/RiceL123/unsw-memes",
+      link: "https://github.com/RiceL123",
       description: "backend for COMP1531 assignment to build a chat app using TypeScript with Express framework and SQLite3",
       image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/projects/unsw memes.png"
     },
     {
       title: "airbrb frontend",
-      link: "https://github.com/RiceL123/airbrb",
+      link: "https://github.com/RiceL123",
       description: "frontend for COMP6080 assignment to build an Airbnb clone using React and testing with Cypress",
       image: "https://raw.githubusercontent.com/RiceL123/personal_website/main/assets/projects/airbrb.png"
     }
